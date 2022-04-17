@@ -1,0 +1,40 @@
+/* 
+    Created on : Eylül 4, 2020, 17:05:39 AM
+    Author     : Doğukan İlbay
+*/
+
+/* GENEL */
+
+body {display: flex; justify-content: center; align-items: center;  background-color: #2196f3;}
+/* GENEL END */
+
+/* CONTENT */
+.container .ref-container {display: flex; justify-content: center; align-items: center; width: 100%; height:500px; overflow: hidden;}
+.container .ref-container .iphone {position: absolute; top: 30%; width: 245px; height: 383px;}
+.container .ref-container .iphone:nth-child(2) {position: absolute; top: 30%; left: 40%; width: 245px; height: 383px;}
+.container .ref-container .iphone:nth-child(3) {position: absolute; top: 30%; left: 60%; width: 245px; height: 383px;}
+.container .ref-container .iphone .imgBx {position: absolute;background: url(../images/apple-mobil.jpg);top: 44px;left: 42px;width: 161px;height: 286px;background-position: top; background-size: 100%; transition: 10s; }
+.container .ref-container .iphone:hover .imgBx {background-position: bottom; transition: 10s; }
+.container .ref-container .mac {position: absolute; top: 30%; width: 606px; height: 489px;}
+.container .ref-container .mac:nth-child(2) {position: absolute; top: 30%; left: 40%; width: 606px; height: 489px;}
+.container .ref-container .mac:nth-child(3) {position: absolute; top: 30%; left: 60%; width: 606px; height: 489px;}
+.container .ref-container .mac .imgBx {position: absolute;background: url(../images/apple-desktop.jpg);top: 24px;left: 24px;width: 556px; height: 314px;background-position: top; background-size: 100%; transition: 10s; }
+.container .ref-container .mac:hover .imgBx {background-position: bottom; transition: 10s; }
+.container .card {width:100%;}
+.container .container {width:50%;}
+.container .card-content {text-align:center;}
+.container .card-content i {font-size:70px;}
+.container .tab a {color: #2196f3;}
+.container .tab a.active {color: #2196f3;}
+.container .tab a:hover {color: #2196f3;}
+.container .tabs .tab a:focus, .tabs .tab a:focus.active {background-color:transparent;}
+.container .tabs .indicator {background-color:#2196f3}
+/* CONTENT END */ 
+
+/* FOOTER */
+
+/* FOOTER END */
+
+/* RESPONSIVE */
+
+/* RESPONSIVE END */
